@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Portfolio of Syamiera Hani</title>
+        <meta charset="UTF-8"> 
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial -scale=1.0"> 
+        <link rel="stylesheet" href="style1.css">
+        <script src="https://kit.fontawesome.com/3ff9c54d9d.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <!--Header Start-->
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/photo_2023-11-27_13-40-54.jpg" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Web Developer / Photo Editor</p>
+                    <h1>Hi, I'm <span>Syamiera Hani</span><br>from Malaysia</h1>
+                </div>
+            </div>
+        </div>
+        <!--Header End-->
+
+        <!--About start-->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-column1">
+                        <img src="images/photo_2023-11-27_14-18-31.jpg">
+                    </div>
+                    <div class="about-column2">
+                        <h1 class="sub-title" >About Me</h1>
+                        <p>Hello! My name is Syamiera Hani, and I'm a passionate web developer and talented photo editor. 
+                            I enjoy transforming creative ideas into gorgeous websites while studying Computer Science with major on Software Development. 
+                            I cherish the challenges of coding and the process of bringing digital ideas to life on the web. 
+                            I am proficient in HTML, CSS, and JavaScript.</p><br>
+
+                        <p>My coding activities range from bug fixing to experimenting with new tools. I like dynamic workplaces in which I can collaborate 
+                            with others to solve technological problems and constantly gain new abilities. Aside from coding, 
+                            I stay up with technical advances, attend hackathons, and occasionally contribute to open-source projects.</p><br>
+                            
+                        <p>Outside of coding, I'm interested in photo editing. By combining my visual creativity with my technical abilities, 
+                            I be able to explore new ideas and bring an extra depth of artistry to my work. 
+                            Let's interact and explore the fascinating connection of IT, web development, and photo editing! </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-content active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web Interface</li>
+                                <li><span>Web Development</span><br>Web Application Development</li>
+                                <li><span>Photos Editing</span><br>Photoshop, Canva</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="education">
+                            <ul>
+                                <li><span>2022</span><br>Computer Science major Software Development<br>
+                                    at Universiti Sultan Zainal Abidin, UniSZA</li>
+                                <li><span>2021</span><br>Foundation of Science and Medical<br>
+                                    at Univeristi Sultan Zainal Abidin, UniSZA</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--About End-->
+
+        <!--Service Start-->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        <h2>UI/UX Designing</h2>
+                        <p>I create user-friendly and visually appealing websites and apps. 
+                            I design the appearance of things (UI) and ensure that they are simple to comprehend and utilise (UX). 
+                            I establish plans, test ideas, and collect input to ensure that everything works properly and looks beautiful</p>
+
+                        <a href="#">Learn more</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-window-restore"></i>
+                        <h2>Web Developing</h2>
+                        <p>I design websites that are both aesthetically pleasing and functional. 
+                            I ensure that your website is user-friendly and performs properly on many devices by using languages such as HTML, CSS, and JavaScript. 
+                            I appreciate the challenge of coding to bring your ideas to life, whether it's correcting problems or trying out new tools!</p>
+
+                        <a href="#">Learn more</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-sliders"></i>
+                        <h2>Photo Editing</h2>
+                        <p>I edit and change images to improve their appearance. I use Photoshop and Canva tools 
+                            to modify colours, erase defects, and add creative touches to bring out the best in each photograph.
+                             Allow me to transform your photos into something spectacular!</p>
+                     
+                        <a href="#">Learn more</a>
+                    </div>
+            </div>
+        </div>
+        <!--services ends-->
+
+        <!--Projects start-->
+        <div id="projects"></div>
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1>
+                <div class="projects-list">
+                    <div class="projects">
+                        <img src="images/photo_2023-11-27_20-35-46.jpg">
+                        <div class="layer">
+                            <h3>Scheduler App</h3>
+                            <p>A digital application that assists individuals in managing and 
+                                organising their time, work, and appointments.</p><br>
+                            <p>Languages: HTML, CSS, JavaScript<br>
+                                Code Editor: Apache Netbeans IDE 19<br>
+                                Database: MySQL</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                                                  
+                    </div>
+                    <div class="projects">
+                        <img src="images/photo_2023-11-27_20-35-47.jpg">
+                        <div class="layer">
+                            <h3>Portfolio Templates</h3>
+                            <p>This project entailed creating a versatile portfolio template to highlight personal and professional accomplishments.</p><br>
+                            <p>Languages: HTML, CSS, JavaScript<br>
+                                Code Editor: Visual Studio Codes<br>
+                                Database: MySQL</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <img src="images/photo_2023-11-27_21-25-35.jpg">
+                        <div class="layer">
+                            <h3>MagicSnap Photo Editing App</h3>
+                            <p>MagicSnap is a simple photo editing app that allows you to easily enhance and personalise images.</p><br>
+                            <p>Languages: HTML, CSS, JavaScript<br>
+                                Code Editor: Visual Studio Codes<br>
+                                Others: Canvas API, Bootsrap</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <a href="#" class="button">See more</a>
+
+            </div>
+            <!--Projects end-->
+
+            <!--Contact start-->
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contactLeft">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p><i class="fa-solid fa-envelope"></i>syamierahani@gmail.com</p>
+                            <p><i class="fa-solid fa-square-phone"></i>0179836434</p>
+                            <div class="socialIcons">
+                                <a href="https://www.facebook.com/syamiera.hani/"><i class="fa-brands fa-square-facebook"></i></a>
+                                <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></i></a>
+                                <a href="https://www.twitter.com/"><i class="fa-brands fa-square-twitter"></i></a>
+
+                            </div>
+                        </div>
+                            
+                        <div class="contactRight">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="email" name="email" placeholder="Your Email" required>
+                                <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                                <button type="submit" class="button button2">Submit</button>
+                            
+                            </form>
+                            <span id="msg"></span>
+
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+
+
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-content");
+            
+            function opentab(tabname) {
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+
+            
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+
+        </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxYqiT7sdwUpMd_NMjRHZr3bULW0t7BbbXCVHGrg1qgmakDkNsvIKwGpCJexgGvd78s/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg= document.getElementById("msg");
+  
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+
+  </script>
+
+        
+    </body>
+</html>
